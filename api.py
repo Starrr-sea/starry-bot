@@ -3,10 +3,11 @@ import requests
 import pymysql
 
 # mysql定义区
-sql_host = 'mysql.rumo.vip'
-sql_database = 'qq_bat'
-sql_user = 'rumou'
-sql_pswword = 'Aifconfig2003'
+sql_host = '121.40.178.171' # MySQL数据库连接地址
+sql_database = 'qq_bat'     # 数据存放数据库，需要提前创建
+sql_user = 'root'           # 数据库用户名
+sql_pswword = '123456'      # 密码
+sql_port = 3306             # 数据库端口
 
 # 发信规则
 SiLiao_URL = 'http://127.0.0.1:5700/send_private_msg?user_id={0}&message={1}'
@@ -18,7 +19,7 @@ start = 1655084402
 stop = int((int(time.time()) - start) / 60 / 60 / 24)
 
 
-# 群聊（主打）
+# 群聊
 def qunliao(Xingxi_id=None, Xingxi_text=None, QQ_name=None, QQ_id=None, Qun_id=None, ZhuPingDao_id=None,
             ZiPingDao_id=None, CaoZhuo_id=None, Leixing=None):
     # 初始化系统问答
@@ -70,12 +71,6 @@ def qunliao(Xingxi_id=None, Xingxi_text=None, QQ_name=None, QQ_id=None, Qun_id=N
     else:
         requests.get(QunLiao_URL.format(Qun_id, "请进行群聊管理员进行初始化\n如果有问题请联系维护人员"))
 
-    # 验证区
-    # 功能列表
-
-
-
-
 
 # 退群事件
 def tuiqun():
@@ -90,7 +85,7 @@ def jiaqun():
 # 数据库部分
 def SQL(key=None, sql=None, Qun_id=None):
     # 初始化连接对象
-    mysqldb = pymysql.connect(host=sql_host, user=sql_user, password=sql_pswword, database=sql_database)
+    mysqldb = pymysql.connect(host=sql_host, user=sql_user, password=sql_pswword, database=sql_database, port=sql_port)
     cursour = mysqldb.cursor()
     try:
         # key 1  无返回值，插入操作
