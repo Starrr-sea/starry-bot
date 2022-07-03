@@ -9,7 +9,7 @@ master-server架构，可实现单机部署
 
 功能全部由MySQL数据库存储，由此实现了下属功能的云同步，使用Python的exec语句实现
 
-目前开发成员就starry一人，已开放官方的体验群聊
+目前开发成员就starry一人，已开放官方的体验群聊，部署问题可联系作者，后期编写部署教程
 
 ![星辰开发演示群聊二维码](https://user-images.githubusercontent.com/84488584/177021460-1671c736-fbbb-42bc-b57e-bb066f2e7444.png)
 
