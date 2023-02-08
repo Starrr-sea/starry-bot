@@ -1,0 +1,29 @@
+{
+  "server_host": "127.0.0.1",
+  "server_port": "5700",
+  "user_root": 2491267482,
+  "start_time":"1655084402",
+
+  "save_data": "True",
+  "Admin_function": "True",
+
+  "admin": {
+    "User_admin":"True",
+    "error_words": "True",
+    "Recent_news": "True",
+    "WenDa": "True"
+
+  },
+  
+
+  "subject": {
+    "MySQL_host": "mysql.rumo.vip",
+    "MySQL_post": 3306,
+    "MySQL_Database": "rumo_bat",
+    "MySQL_user": "go_cqhttp",
+    "MySQL_Pass": "Ago-cqhttp",
+    "go-cqhttp_url": "127.0.0.1:5700"
+
+  }
+}
+

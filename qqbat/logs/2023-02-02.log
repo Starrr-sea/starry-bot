@@ -1,0 +1,60 @@
+[2023-02-02 09:23:04] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-02-02 09:23:06] [WARNING]: HTTP 服务器使用了过时的配置格式，请更新配置文件！ 
+[2023-02-02 09:23:06] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-02 09:54:11] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2023-02-02 09:54:15] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2023-02-02 09:54:18] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2023-02-02 09:54:22] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1675302848,"self_id":3276394070,"sub_type":"normal","font":0,"group_id":953026557,"message":"9","message_id":-2013400692,"sender":{"age":0,"area":"","card":"","level":"","nickname":"Starry Sea","role":"owner","sex":"unknown","title":"","user_id":2491267482},"user_id":2491267482,"anonymous":null,"message_type":"group","message_seq":2395,"raw_message":"9"}
+ 到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-02-02 10:12:39] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2023-02-02 10:12:42] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2023-02-02 10:12:46] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2023-02-02 10:12:50] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"guild","time":1675303955,"self_id":3276394070,"sub_type":"channel","sender":{"nickname":"Ruiyo","tiny_id":"144115218736304132","user_id":144115218736304132},"guild_id":"40345291637671734","channel_id":"2617934","message_id":"BACPVdQ4bEc2AAAAAAAn8k4AAAAAAAAA4g==","user_id":"144115218736304132","message":"有没有C语言视频教程","self_tiny_id":"144115218754786735"}
+ 到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-02-02 10:14:58] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2023-02-02 10:15:02] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2023-02-02 10:15:05] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2023-02-02 10:15:09] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"guild","time":1675304094,"self_id":3276394070,"sub_type":"channel","self_tiny_id":"144115218754786735","sender":{"nickname":"Ruiyo","tiny_id":"144115218736304132","user_id":144115218736304132},"guild_id":"40345291637671734","channel_id":"1599037","message_id":"BACPVdQ4bEc2AAAAAAAYZj0AAAAAAABRbw==","user_id":"144115218736304132","message":"有没有C语言视频教程"}
+ 到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-02-02 10:49:41] [ERROR]: Protocol -> unexpected disconnect: read tcp 10.10.0.100:55023->58.212.179.115:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-02-02 10:54:40] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-02-02 10:54:44] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-02 10:54:44] [WARNING]: HTTP 服务器使用了过时的配置格式，请更新配置文件！ 
+[2023-02-02 11:21:23] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2023-02-02 11:21:26] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2023-02-02 11:21:30] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2023-02-02 12:49:35] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.88.193:57080->58.212.179.115:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-02-02 12:49:50] [ERROR]: Protocol -> unexpected disconnect: read tcp 10.10.0.100:63405->180.102.191.97:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-02-02 12:52:44] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.8.48:63511->58.212.179.185:8080: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-02-02 13:28:26] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-02-02 13:28:28] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-02 13:28:28] [WARNING]: HTTP 服务器使用了过时的配置格式，请更新配置文件！ 
+[2023-02-02 13:43:11] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2023-02-02 13:43:14] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2023-02-02 14:03:24] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.8.48:55449->117.62.243.156:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-02-02 14:06:37] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.88.193:59452->123.151.54.91:443: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-02-02 15:10:12] [ERROR]: Protocol -> unexpected disconnect: read tcp 10.10.0.100:60277->222.94.109.78:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-02-02 15:10:28] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2023-02-02 15:17:12] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2023-02-02 15:17:15] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2023-02-02 15:17:19] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2023-02-02 15:17:22] [WARNING]: 上报 Event 数据 {"post_type":"notice","notice_type":"notify","time":1675322230,"self_id":3276394070,"sub_type":"honor","group_id":953026557,"user_id":2491267482,"honor_type":"talkative"}
+ 到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-02-02 16:40:23] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-02-02 16:40:25] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-02 16:40:25] [WARNING]: HTTP 服务器使用了过时的配置格式，请更新配置文件！ 
+[2023-02-02 16:51:37] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2023-02-02 16:51:41] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2023-02-02 16:51:44] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2023-02-02 16:51:48] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1675327894,"self_id":3276394070,"sub_type":"normal","message":"[CQ:at,qq=3276394070] ","message_seq":2417,"sender":{"age":0,"area":"","card":"","level":"","nickname":"Starry Sea","role":"owner","sex":"unknown","title":"","user_id":2491267482},"user_id":2491267482,"message_id":-1536881619,"anonymous":null,"font":0,"group_id":953026557,"message_type":"group","raw_message":"[CQ:at,qq=3276394070] "}
+ 到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-02-02 16:51:52] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2023-02-02 16:51:56] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2023-02-02 16:51:59] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2023-02-02 16:52:03] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1675327908,"self_id":3276394070,"sub_type":"normal","message_seq":2418,"sender":{"age":0,"area":"","card":"","level":"","nickname":"Starry Sea","role":"owner","sex":"unknown","title":"","user_id":2491267482},"message_id":886706620,"anonymous":null,"font":0,"group_id":953026557,"message":"[CQ:at,qq=3276394070] 查看10条","message_type":"group","raw_message":"[CQ:at,qq=3276394070] 查看10条","user_id":2491267482}
+ 到 http://127.0.0.1:5701 失败: Post "http://127.0.0.1:5701": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-02-02 19:16:03] [ERROR]: Protocol -> unexpected disconnect: read tcp 10.10.0.100:56795->117.62.243.225:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-02-02 19:24:32] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.8.48:60361->113.96.18.168:14000: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-02-02 19:24:32] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 117.62.242.214:8080: connectex: A socket operation was attempted to an unreachable host. 
+[2023-02-02 19:24:32] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 117.62.242.214:8080: connectex: A socket operation was attempted to an unreachable host. 
+[2023-02-02 19:24:32] [WARNING]: Bot已离线: connection dropped by server. 
