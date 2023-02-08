@@ -17,11 +17,11 @@
   
 
   "subject": {
-    "MySQL_host": "mysql.rumo.vip",
+    "MySQL_host": "",
     "MySQL_post": 3306,
     "MySQL_Database": "rumo_bat",
-    "MySQL_user": "go_cqhttp",
-    "MySQL_Pass": "Ago-cqhttp",
+    "MySQL_user": "",
+    "MySQL_Pass": "",
     "go-cqhttp_url": "127.0.0.1:5700"
 
   }
