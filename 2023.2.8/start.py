@@ -12,9 +12,9 @@ def post_data():
     if json_data.get('message_type') == 'group':            # 如果是群聊信息
         subject.QunLiao(json_data)
     # 心跳数据过滤
-    # elif json_data.get("post_type") == 'meta_event':        # 心跳检测
-    #     MySQL = extend.MySQL()
-    #     MySQL.Update("UPDATE `tmp` SET `value` = '%s' WHERE `key` = 'heartbeat'" % json_data.get("time"))
+    elif json_data.get("post_type") == 'meta_event':        # 心跳检测
+        MySQL = extend.MySQL()
+        MySQL.Update("UPDATE `tmp` SET `value` = '%s' WHERE `key` = 'heartbeat'" % json_data.get("time"))
     return 'OK'
 
 if __name__ == '__main__':

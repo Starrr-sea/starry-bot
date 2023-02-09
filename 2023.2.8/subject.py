@@ -46,8 +46,6 @@ def QunLiao(json_data):
         else:
             admin_list.append(cqhttp_data.root_user(Qun_id))
         if QQ_id in admin_list:
-            print(admin_list)
-            print(QQ_id)
             QunGuan.Admin(json_data)
 
 

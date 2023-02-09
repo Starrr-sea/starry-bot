@@ -12,10 +12,7 @@
     "error_words": "True",
     "Recent_news": "True",
     "WenDa": "True"
-
   },
-  
-
   "subject": {
     "MySQL_host": "",
     "MySQL_post": 3306,
@@ -23,9 +20,17 @@
     "MySQL_user": "",
     "MySQL_Pass": "",
     "go-cqhttp_url": "127.0.0.1:5700",
+    "smtp_host": "smtp.163.com",
+    "smtp_port": 465,
     "smtp_sender": "",
-    "smtp_key": ""
-
+    "smtp_key": "",
+    "smtp_title": ""
+  },
+  "hear": {
+    "main_Qun_id": "",
+    "rebot_id": "",
+    "main_admin": "",
+    "sleep": 120
   }
 }
 

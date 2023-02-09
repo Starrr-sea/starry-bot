@@ -1,0 +1,35 @@
+{
+  主文件配置
+  "user_root": 2467482,     机器人归属人qq号
+  "start_time":"1655084402",  机器人启动时间戳（暂时没有用）
+
+  "save_data": "True",    功能开关，数据是否存储与数据库
+  "Admin_function": "True", 群管功能开关
+
+  "admin": {      群管功能具体配置
+    "User_admin":"True",  是否允许群聊普通管理员操作机器人
+    "error_words": "True",    违禁词撤回
+    "Recent_news": "True",    机器人复述
+    "WenDa": "True"       自定义问答
+  },
+  "subject": {
+    "MySQL_host": "",     数据库地址
+    "MySQL_post": 3306, 数据库端口
+    "MySQL_Database": "",数据库库名
+    "MySQL_user": "",数据库用户名
+    "MySQL_Pass": "",数据库密码
+    "go-cqhttp_url": "127.0.0.1:5700",
+    "smtp_host": "smtp.163.com",邮件主机地址
+    "smtp_port": 465,邮件主机端口
+    "smtp_sender": "",邮件账号（发件人）
+    "smtp_key": "",秘钥
+    "smtp_title": ""  邮件主题
+  },
+  "hear": { 心跳监听地址
+    "main_Qun_id": "",  主群号
+    "rebot_id": "", 机器人账号
+    "main_admin": "", 紧急通知人邮件地址
+    "sleep": 120  间隔检测时间
+  }
+}
+

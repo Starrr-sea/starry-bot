@@ -124,17 +124,16 @@ class data_with:
 # 邮件模块
 class emil:
     def send(self,recipient,theme,data):
-        smtp_server = "smtp.163.com"
-        smtp_port = 465
+        smtp_server = config_json.get("smtp_host")
+        smtp_port = config_json.get("smtp_port")
         smtp_sender = config_json.get("smtp_sender")
         smtp_key = config_json.get("smtp_key")
         smtp_receiver = recipient  # 这里填入实际的接收端
         smtp = smtplib.SMTP_SSL(smtp_server, smtp_port)
         smtp.login(smtp_sender, smtp_key)
         message = MIMEText(data, 'plain', 'utf-8')  # 发送的内容
-        message['From'] = Header("starry系统邮件", 'utf-8')  # 发件人
+        message['From'] = Header(config_json.get("smtp_title"), 'utf-8')  # 发件人
         message['To'] = Header("管理员", 'utf-8')  # 收件人
-        subject = 'Python SMTP 邮件测试'
         message['Subject'] = theme  # 邮件标题
         smtp.sendmail(smtp_sender, smtp_receiver, message.as_string())
         smtp.close()
